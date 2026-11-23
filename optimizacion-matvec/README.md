@@ -37,6 +37,7 @@ src/matvec_avx2.c     Versión final: intrínsecas AVX2/FMA con desenrollado de 
 src/polybench.c/.h    PolyBench/C, utilizado para medir tiempo y GFLOPS
 src/perf_metrics.sh   Lectura de contadores hardware (Top-Down, FP, puertos, caché) con perf
 src/Makefile
+docs/enunciado.pdf    Enunciado de la práctica
 ```
 
 Compilación y ejecución (requiere un procesador con AVX2 y FMA):

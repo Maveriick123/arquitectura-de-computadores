@@ -8,10 +8,13 @@ El repositorio cubre el rendimiento a distintos niveles: desde el aprovechamient
 
 | Trabajo | Tipo | Temas |
 |---|---|---|
-| [Producto de matrices con MPI (1D)](mpi-producto-matrices-1d) | Programación paralela | Operaciones colectivas, distribución por bloques de filas con reparto equilibrado |
-| [Algoritmo SUMMA con MPI (2D)](mpi-summa-2d) | Programación paralela | Malla de procesos, tipos de datos derivados, topologías virtuales, comunicadores |
 | [Escalabilidad en multiprocesadores](escalabilidad-multiprocesadores) | Estudio teórico | Coherencia y consistencia caché, *snooping*, protocolos MSI/MESI, UMA frente a CC-NUMA, directorios |
 | [Optimización de la multiplicación matriz-vector](optimizacion-matvec) | Análisis de rendimiento | Roofline, TMA, VTune, `perf`, vectorización AVX2, intrínsecas de Intel |
+
+Las prácticas de programación paralela con MPI de esta asignatura están en repositorios propios:
+
+- [**summa-mpi**](https://github.com/Maveriick123/summa-mpi): multiplicación de matrices distribuida con el algoritmo SUMMA sobre una malla 2D de procesos.
+- [**producto-matrices-mpi**](https://github.com/Maveriick123/producto-matrices-mpi): producto de matrices con distribución unidimensional y operaciones colectivas.
 
 ## Tecnologías y herramientas
 

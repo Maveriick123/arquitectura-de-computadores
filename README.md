@@ -2,7 +2,7 @@
 
 Trabajos realizados en la asignatura **Arquitectura de Computadores** (Grado en Ingeniería Informática, Universidade da Coruña, curso 2025/2026).
 
-El repositorio cubre el rendimiento a distintos niveles: desde el aprovechamiento de un único núcleo (vectorización, jerarquía de memoria) hasta la programación paralela en memoria distribuida con MPI, pasando por un estudio teórico sobre la escalabilidad de los multiprocesadores de memoria compartida.
+El repositorio recoge dos trabajos complementarios: un estudio teórico sobre la escalabilidad de los multiprocesadores de memoria compartida y el papel de la coherencia caché, y un trabajo práctico de análisis y optimización de rendimiento sobre un procesador Intel real, guiado por el modelo Roofline y la metodología Top-Down.
 
 ## Contenido
 
@@ -18,7 +18,7 @@ Las prácticas de programación paralela con MPI de esta asignatura están en re
 
 ## Tecnologías y herramientas
 
-- **Lenguaje:** C con MPI (Open MPI) e intrínsecas AVX2/FMA
+- **Lenguaje:** C con intrínsecas AVX2/FMA
 - **Hardware:** Intel Core i7-1260P (Alder Lake, núcleo P Golden Cove)
 - **Análisis:** Intel VTune Profiler, Linux `perf`, Empirical Roofline Toolkit (ERT), PolyBench
 - **Sistema:** `cpupower`, `numactl`, Huge Pages
